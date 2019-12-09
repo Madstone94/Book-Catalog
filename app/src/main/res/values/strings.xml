@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Book Catalog</string>
+    // main menu
+    <string name="addbook">Add Book</string>
+    <string name="bookcatalog">Book Catalog</string>
+    <string name="exit">Exit App</string>
+    // addbook
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="year">Year Published</string>
+    <string name="description">Description</string>
+    <string name="isbn">ISBN</string>
+    <string name="etext">Etext Available</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="save">save</string>
+</resources>

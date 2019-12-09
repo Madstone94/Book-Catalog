@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bookcatalog.MainActivity">
+
+    <Button
+        android:text="@string/addbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_book"
+        android:layout_marginTop="20dp"
+        android:onClick="add_book" />
+    <Button
+        android:text="@string/bookcatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_library"
+        android:layout_marginTop="20dp"
+        android:onClick="view_catalog" />
+    <Button
+        android:text="@string/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:layout_marginTop="20dp"
+        android:onClick="exit_app" />
+</LinearLayout>
